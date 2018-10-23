@@ -1,9 +1,8 @@
 
 box: 
   id: pjvds/scala
-  username: $USERNAME # Registry username  
-  password: $PASSWORD # Registry password
-  tag:latest
+  username: $USERNAME
+  password: $PASSWORD
 build:
   steps:
     - script:
